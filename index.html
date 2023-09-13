@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>contact us form</title>
+  </head>
+  <style>
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: coral;
+  font-size: 14px;
+}
+
+.container {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.contact-box {
+  background-color: white;
+  display: flexbox;
+}
+
+.contact-left {
+  flex-basis: 60%;
+  padding: 40px 60px;
+}
+
+.contact-right {
+  flex-basis: 40%;
+  padding: 40px;
+  background-color: crimson;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-family: sans-serif;
+}
+.container p {
+  margin-bottom: 40px;
+}
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input-row .input-group {
+  flex-basis: 45%;
+}
+input {
+  width: 100%;
+  padding-bottom: 5px;
+  outline: none;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+label {
+  margin-bottom: 6px;
+  display: block;
+  color: crimson;
+}
+
+button {
+  background: white;
+  width: 100px;
+  border: none;
+  outline: none;
+  color: crimson;
+  height: 35px;
+  border-radius: 30px;
+  margin-top: 20px;
+  box-shadow: 0px 5px 15px 0px;
+}
+
+.contact-left h2 {
+  color: crimson;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.contact-left h2 {
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+tr td:first-child {
+  padding-right: 20px;
+}
+
+tr td {
+  padding-top: 20px;
+}
+
+h2 {
+  font-family: sans-serif;
+}
+
+  </style>
+  <body>
+    <div class="container">
+      <h1>Connect With Us</h1>
+      <p>
+        Feel free to get in touch with us .
+        <br />We would love to help you respond your queries.
+      </p>
+      <div class="contact-box">
+        <div class="contact-left">
+          <h2>Sent your Request</h2>
+          <form>
+            
+            <div class="input-row">
+              
+              <div class="input-group">
+                <label>Name </label>
+                <input type="text" placeholder="name surname" />
+              </div>
+              <div class="input-group">
+                <label>Phone </label>
+                <input type="text" placeholder="91+ 1234567890" />
+              </div>
+            </div>
+            <div class="input-row">
+              <div class="input-group">
+                <label>Email </label>
+                <input type="email" placeholder="abcd@gmail.com" />
+              </div>
+              <div class="input-group">
+                <label>Subject</label>
+                <input type="text" placeholder="any subject" />
+              </div>
+            </div>
+              <label>Message</label>
+              <textarea rows="5" placeholder="your message"></textarea>
+              <button type="submit">SEND</button>
+            </div>
+          </form>
+        </div>
+        <div class="contact-right">
+          <h2>Reach us</h2>
+          <table>
+            <tr>
+              <td>Email</td>
+              <td>contactus@example.com</td>
+            </tr>
+            <tr>
+              <td>Phone</td>
+              <td>91+1234567890</td>
+            </tr>
+            <tr>
+              <td>Address</td>
+              <td>
+                201, Trimurti Complex, 2nd floor block.no -5<br />
+                katraj road,near PICT college ,Pune-41150<br />
+                Mahatrashtra
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
